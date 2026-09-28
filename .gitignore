@@ -1,0 +1,7 @@
+.env
+.env.*
+**/auth-state*.json
+**/credentials*.json
+dogfood-output/screenshots/store-*.png
+dogfood-output/screenshots/issue-004-admin-unpaid.png
+dogfood-output/screenshots/issue-004-admin-payment.png
