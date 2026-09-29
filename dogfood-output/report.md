@@ -284,3 +284,5 @@
 **Фактически:** открывается элемент `role="dialog"` без `aria-label`. Его `aria-labelledby` указывает на отсутствующий DOM-элемент; на шаге Type внутри диалога нет заголовка. Снимок дерева доступности показывает просто `dialog` без названия. Библиотека Radix выводит ошибку «DialogContent requires a DialogTitle». [Вид диалога](screenshots/issue-017-unnamed-promotion-dialog.png), [DOM-атрибуты](evidence/issue-017-dialog-dom.json), [сообщение консоли](evidence/issue-017-dialog-console.txt).
 
 **Воспроизведение:** в админке открыть Promotions → Create и проверить доступное название открытого диалога.
+
+**Дополнительный путь (2026-09-29):** в собственном заказе №15 окно `Unfulfilled Items` → `Fulfill items` также появилось в дереве доступности как безымянный `dialog`, без заголовка в интерфейсе. [Вид окна fulfillment](screenshots/issue-017-unnamed-fulfillment-dialog.png).
