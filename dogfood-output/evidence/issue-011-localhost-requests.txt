@@ -1,0 +1,2 @@
+[1196.266] GET http://127.0.0.1:9001/store/product-options?is_exclusive=false&fields=%2Avalues (Fetch)
+[58DEF96E92C1246CD434BB9F5DC7DD99] OPTIONS http://127.0.0.1:9001/store/product-options?is_exclusive=false&fields=%2Avalues (Other)

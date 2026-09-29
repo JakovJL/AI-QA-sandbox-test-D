@@ -1,0 +1,3 @@
+[log] %cgood job, you found a non-functional bug! 🐛🎉 font-size:16px;font-weight:bold;color:#22c55e;background:#052e16;padding:8px 12px;border-radius:6px;
+[error] Failed to fetch product options {stack: "TypeError: Failed to fetch
+    at tr.<anonymous> (…t/static/chunks/1009-26c03cdd54bacb49.js:1:89675)", message: "Failed to fetch"}
