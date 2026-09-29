@@ -1,0 +1,17 @@
+{
+  "blockingResource": {
+    "durationMs": 19897,
+    "initiator": "script",
+    "path": "/blocking-fault.js",
+    "startMs": 228
+  },
+  "domInteractiveMs": 20167,
+  "fcpMs": 20276,
+  "page": "/dk/store",
+  "responseEndMs": 233,
+  "scriptElement": {
+    "async": false,
+    "defer": false,
+    "type": ""
+  }
+}
