@@ -1,0 +1,44 @@
+[
+  {
+    "checked": "true",
+    "dataState": null,
+    "tabIndex": 0,
+    "tag": "SPAN",
+    "text": "Standard Shipping€10.00"
+  },
+  {
+    "checked": "true",
+    "dataState": "checked",
+    "tabIndex": 0,
+    "tag": "BUTTON",
+    "text": ""
+  },
+  {
+    "checked": "false",
+    "dataState": null,
+    "tabIndex": -1,
+    "tag": "SPAN",
+    "text": "Express Shipping€10.00"
+  },
+  {
+    "checked": "true",
+    "dataState": "unchecked",
+    "tabIndex": 0,
+    "tag": "BUTTON",
+    "text": ""
+  },
+  {
+    "checked": "false",
+    "dataState": null,
+    "tabIndex": 0,
+    "tag": "SPAN",
+    "text": "Manual Payment"
+  },
+  {
+    "checked": "true",
+    "dataState": "unchecked",
+    "tabIndex": 0,
+    "tag": "BUTTON",
+    "text": ""
+  }
+]
