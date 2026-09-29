@@ -1,0 +1,13 @@
+{
+  "activeName": "first_name",
+  "activeTabIndex": 0,
+  "activeTag": "INPUT",
+  "invisibleAncestors": [
+    {
+      "class": "transition-[max-height,opacity] duration-300 ease-in-out overflow-visible max-h-0 opacity-0",
+      "opacity": "0",
+      "overflow": "visible",
+      "tag": "DIV"
+    }
+  ]
+}
