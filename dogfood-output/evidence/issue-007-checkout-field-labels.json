@@ -1,0 +1,83 @@
+[
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.first_name",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.last_name",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.address_1",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.company",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.postal_code",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.city",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.province",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "email",
+    "placeholder": " ",
+    "title": "Enter a valid email address.",
+    "type": "email"
+  },
+  {
+    "ariaLabel": null,
+    "ariaLabelledby": null,
+    "labels": 0,
+    "name": "shipping_address.phone",
+    "placeholder": " ",
+    "title": "",
+    "type": "text"
+  }
+]
