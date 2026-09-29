@@ -1,0 +1,2 @@
+[error] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+[warning] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

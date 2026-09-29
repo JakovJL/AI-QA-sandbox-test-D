@@ -1,0 +1,12 @@
+{
+  "ariaLabel": null,
+  "ariaLabelledby": "radix-:r2e:",
+  "headings": [],
+  "labelTargetExists": false,
+  "role": "dialog",
+  "tabs": [
+    "Type",
+    "Details",
+    "Campaign"
+  ]
+}
