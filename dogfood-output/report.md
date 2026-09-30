@@ -2,7 +2,7 @@
 
 | Поле | Значение |
 |---|---|
-| Дата | 2026-09-28—29 |
+| Дата | 2026-09-28—30 |
 | Витрина | https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/ |
 | Админка | https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/app |
 | Охват | Витрина, админка, доступность, адаптивность, ошибки браузера и API |
@@ -13,10 +13,10 @@
 | Критичность | Количество |
 |---|---:|
 | Критическая | 0 |
-| Высокая | 6 |
+| Высокая | 7 |
 | Средняя | 11 |
 | Низкая | 2 |
-| **Всего** | **19** |
+| **Всего** | **20** |
 
 ## Правила фиксации
 
@@ -316,3 +316,18 @@
 **Фактически:** в трёх полных загрузках `/dk/store` First Contentful Paint составил 20,17–20,28 секунды при TTFB 0,18–0,36 секунды. На `/dk` две загрузки дали FCP 20,16–20,29 секунды. Navigation Timing показывает `responseEnd` 233 мс и `domInteractive` 20 167 мс. Ресурс `/blocking-fault.js` стартует на 228 мс, загружается 19 897 мс и включён в DOM как обычный скрипт без `async`/`defer`; задержка DOM и первого отображения совпадает с его загрузкой. Контрольная админка `/app/orders` на этом же стенде показала FCP 0,42–0,57 секунды. [Сводка пяти измерений](evidence/issue-019-samples.md), [тайминги страницы и скрипта](evidence/issue-019-store-timing.json), [метрики каталога](evidence/perf-store-vitals.json), [метрики главной](evidence/issue-019-home-vitals.json), [контроль админки](evidence/issue-019-admin-control-vitals.json).
 
 **Воспроизведение:** выполнить полную загрузку `/dk/store` в новой навигации и измерить Navigation Timing и First Contentful Paint. Повторить для `/dk`; в обоих случаях страница остаётся пустой до завершения `/blocking-fault.js`.
+
+### ISSUE-020: Черновой заказ с регионом Europe допускает доставку в США и превращается в заказ
+
+| Поле | Значение |
+|---|---|
+| Критичность | Высокая |
+| Категория | Функциональность / проверка адреса и региона |
+| Адрес | `/app/draft-orders` → Create; `/app/orders/order_01M3RMB1RR205DY37DF3A95JTD` |
+| Видео | Недоступно: запись отклонена политикой среды; приложены снимки всех ключевых состояний |
+
+**Ожидалось:** страна адреса доставки ограничена странами выбранного региона либо при сохранении/конвертации показывается ошибка с объяснением несовместимости.
+
+**Фактически:** в настройках региона Europe указаны только Denmark, France, Germany, Italy, Spain, Sweden и United Kingdom. Мастер создания чернового заказа при выборе Europe всё равно предлагает United States. Он сохранил наш черновик №18 с адресом New York, United States; к нему удалось добавить Medusa T-Shirt и Standard Shipping из European Warehouse за €10, затем конвертировать в обычный заказ №18 на €20. На странице заказа адрес доставки остался в США. Повторное открытие мастера подтвердило, что страна US остаётся доступной при выборе Europe. [Страны региона](screenshots/issue-020-region-countries.png), [регион Europe в мастере](screenshots/issue-020-create-europe-us.png), [страна US в том же мастере](screenshots/issue-020-create-us-country.png), [вариант доставки](screenshots/draft-order-us-shipping-option.png), [черновик перед конвертацией](screenshots/draft-order-us-before-convert.png), [заказ №18](screenshots/issue-020-order-europe-us-address.png), [адрес заказа](screenshots/issue-020-order-us-address-detail.png).
+
+**Воспроизведение:** создать черновой заказ с регионом Europe, Default Sales Channel, новым тестовым email и адресом United States; добавить товар, выбрать European Warehouse → Standard Shipping и выполнить Convert to order. Проверка адреса с регионом не остановит ни сохранение, ни конвертацию. Заказ №18 оставлен для просмотра в админке; он не оплачен и не выполнен.
