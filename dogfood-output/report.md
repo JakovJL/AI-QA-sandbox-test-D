@@ -14,9 +14,9 @@
 |---|---:|
 | Критическая | 0 |
 | Высокая | 7 |
-| Средняя | 11 |
+| Средняя | 12 |
 | Низкая | 2 |
-| **Всего** | **20** |
+| **Всего** | **21** |
 
 ## Правила фиксации
 
@@ -331,3 +331,18 @@
 **Фактически:** в настройках региона Europe указаны только Denmark, France, Germany, Italy, Spain, Sweden и United Kingdom. Мастер создания чернового заказа при выборе Europe всё равно предлагает United States. Он сохранил наш черновик №18 с адресом New York, United States; к нему удалось добавить Medusa T-Shirt и Standard Shipping из European Warehouse за €10, затем конвертировать в обычный заказ №18 на €20. На странице заказа адрес доставки остался в США. Повторное открытие мастера подтвердило, что страна US остаётся доступной при выборе Europe. [Страны региона](screenshots/issue-020-region-countries.png), [регион Europe в мастере](screenshots/issue-020-create-europe-us.png), [страна US в том же мастере](screenshots/issue-020-create-us-country.png), [вариант доставки](screenshots/draft-order-us-shipping-option.png), [черновик перед конвертацией](screenshots/draft-order-us-before-convert.png), [заказ №18](screenshots/issue-020-order-europe-us-address.png), [адрес заказа](screenshots/issue-020-order-us-address-detail.png).
 
 **Воспроизведение:** создать черновой заказ с регионом Europe, Default Sales Channel, новым тестовым email и адресом United States; добавить товар, выбрать European Warehouse → Standard Shipping и выполнить Convert to order. Проверка адреса с регионом не остановит ни сохранение, ни конвертацию. Заказ №18 оставлен для просмотра в админке; он не оплачен и не выполнен.
+
+### ISSUE-021: Обе ссылки на документы при регистрации ведут на 404
+
+| Поле | Значение |
+|---|---|
+| Критичность | Средняя |
+| Категория | Функциональность / навигация и документы |
+| Адрес | `/dk/account` → `/dk/content/privacy-policy`, `/dk/content/terms-of-use` |
+| Видео | Не требуется: результат обоих переходов зафиксирован снимками |
+
+**Ожидалось:** перед созданием аккаунта покупатель может открыть Privacy Policy и Terms of Use, согласие с которыми утверждает форма.
+
+**Фактически:** ссылки под формой Join ведут на `/dk/content/privacy-policy` и `/dk/content/terms-of-use`. Оба адреса показывают «Page not found». Результат повторился при новой загрузке каждого адреса. [Форма со ссылками](screenshots/issue-021-register-policy-links.png), [404 Privacy Policy](screenshots/issue-021-privacy-404.png), [404 Terms of Use](screenshots/issue-021-terms-404.png), [адреса ссылок](evidence/issue-021-policy-hrefs.json).
+
+**Воспроизведение:** открыть `/dk/account`, нажать Join us, затем по очереди открыть Privacy Policy и Terms of Use под формой регистрации. Связанный дефект checkout без ссылок на эти документы — ISSUE-003.
