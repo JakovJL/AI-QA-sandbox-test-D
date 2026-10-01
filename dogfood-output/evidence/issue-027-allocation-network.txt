@@ -1,0 +1,15 @@
+[30488.363] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations (Fetch) 200
+[30488.365] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?line_item_id%5B0%5D=ordli_01M3V9ENZNWZXCYSRP9GAYQ3PD&limit=1 (Fetch) 200
+[30488.410] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?line_item_id%5B0%5D=ordli_01M3V9ENZNWZXCYSRP9GAYQ3PD&limit=1 (Fetch) 200
+[30488.432] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[30488.437] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations/resitem_01M3VA0CHWCTHYY4HTSWHDR456 (Fetch) 200
+[30488.470] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[30488.473] DELETE https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations/resitem_01M3VA0CHWCTHYY4HTSWHDR456 (Fetch) 200
+[30488.474] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[30488.517] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?line_item_id%5B0%5D=ordli_01M3V9ENZNWZXCYSRP9GAYQ3PD&limit=1 (Fetch) 200
+[30488.535] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations (Fetch) 200
+[30488.536] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?line_item_id%5B0%5D=ordli_01M3V9ENZNWZXCYSRP9GAYQ3PD&limit=1 (Fetch) 200
+[30488.567] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[30488.570] DELETE https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations/resitem_01M3VAB2GMXS30P1AC3X4BMTTR (Fetch) 200
+[30488.571] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[30488.615] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?line_item_id%5B0%5D=ordli_01M3V9ENZNWZXCYSRP9GAYQ3PD&limit=1 (Fetch) 200
