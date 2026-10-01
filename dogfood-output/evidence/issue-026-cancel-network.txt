@@ -1,0 +1,2 @@
+[30488.204] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/orders/order_01M3KVHCAV00GXJB1NNTAZ4PGB/cancel (Fetch) 400
+[30488.205] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/notifications?limit=1&offset=0&fields=created_at (Fetch) 200
