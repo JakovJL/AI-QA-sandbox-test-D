@@ -1,0 +1,145 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+Products
+
+Products
+
+Inventory
+
+Inventory
+
+-
+
+Inventory
+
+-
+
+Reservations
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Inventory
+
+-
+
+...QA Inventory Oct2
+
+# QA Inventory Oct2 Details
+
+SKU
+
+QA-INV-20261002
+
+In stock
+
+10 across 1 locations
+
+Reserved
+
+0 across 1 locations
+
+Available
+
+10 across 1 locations
+
+## Locations
+
+Manage locations
+
+Location
+
+ReservedIn stock
+
+Available
+
+European Warehouse
+
+0
+
+10
+
+10
+
+1
+
+1 of 1 results
+
+1 of 1 pages
+
+PrevNext
+
+## Reservations
+
+Create
+
+No records
+
+There are no records to show
+
+## Metadata
+
+0 keys
+
+## JSON
+
+22 keys
+
+## Attributes
+
+Height
+
+-
+
+Width
+
+-
+
+Length
+
+-
+
+Weight
+
+250
+
+Unit of measure
+
+-
+
+MID code
+
+-
+
+Material
+
+-
+
+HS code
+
+-
+
+Country of origin
