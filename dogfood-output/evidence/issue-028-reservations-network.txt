@@ -1,0 +1,6 @@
+[33752.53] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations (Fetch) 200
+[33752.54] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&order=-created_at (Fetch) 200
+[33752.56] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&inventory_item_id%5B0%5D=iitem_01M3XRK2TW3A0PZN1SW0DFTV0P (Fetch) 200
+[33752.91] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&inventory_item_id%5B0%5D=iitem_01M3XRK2TW3A0PZN1SW0DFTV0P (Fetch) 200
+[33752.95] DELETE https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations/resitem_01M3XS3EVAA4WPQ0EJ7GPYTYQV (Fetch) 200
+[33752.96] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/reservations?limit=20&inventory_item_id%5B0%5D=iitem_01M3XRK2TW3A0PZN1SW0DFTV0P (Fetch) 200

@@ -2,7 +2,7 @@
 
 | Поле | Значение |
 |---|---|
-| Дата | 2026-09-28—2026-10-01 |
+| Дата | 2026-09-28—2026-10-02 |
 | Витрина | https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/ |
 | Админка | https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/app |
 | Охват | Витрина, админка, доступность, адаптивность, ошибки браузера и API |
@@ -14,9 +14,9 @@
 |---|---:|
 | Критическая | 1 |
 | Высокая | 9 |
-| Средняя | 15 |
+| Средняя | 16 |
 | Низкая | 2 |
-| **Всего** | **27** |
+| **Всего** | **28** |
 
 ## Правила фиксации
 
@@ -442,3 +442,28 @@
 **Фактически:** заказ №20 был Canceled, оплата Canceled, товар Not allocated. На его карточке осталась активная ссылка Allocate items. При выборе European Warehouse и количества 1 запрос `POST /admin/reservations` вернул HTTP 200, товар в отменённом заказе стал Allocated и остался таким после полной загрузки. В списке Reservations появился элемент для line item этого заказа; для SHIRT-L-BLACK доступный остаток склада уменьшился с 999997 до 999996. Резервирование удаляли и сценарий повторяли; всего создание удалось трижды. Все три созданных при проверке резервирования удалены. Заказ остался Canceled / Not allocated. [Заказ после отмены](screenshots/issue-023-order-20-admin-canceled-after-reload.png), [диалог резервирования с доступным остатком](screenshots/issue-027-canceled-order-allocation-dialog.png), [Canceled и Allocated](screenshots/issue-027-canceled-order-allocated-header.png), [запись резервирования и остаток](screenshots/issue-027-reservation-after-cancel.png), [сетевые запросы первых двух попыток и очистки](evidence/issue-027-allocation-network.txt).
 
 **Воспроизведение:** отменить собственный тестовый заказ до оплаты и выполнения, открыть его карточку после полной загрузки, нажать Allocate items, выбрать склад и количество 1, подтвердить. Проверить статус Allocated в отменённом заказе и резервирование в Inventory → Reservations.
+
+### ISSUE-028: Таблица Locations показывает старые остатки после создания и удаления резервирования
+
+| Поле | Значение |
+|---|---|
+| Критичность | Средняя |
+| Категория | Функциональность / согласованность складских данных |
+| Адрес | `/app/inventory/iitem_01M3XRK2TW3A0PZN1SW0DFTV0P` |
+| Видео | [Создание, удаление и перезагрузка](videos/issue-028-repro.webm) |
+
+**Ожидалось:** после успешного создания или удаления резервирования таблица Locations показывает те же Reserved и Available, что сводка этой складской позиции.
+
+**Фактически:** у нашей отдельной позиции QA-INV-20261002 с остатком 10 после создания резерва на 6 единиц сводка стала Reserved 6 / Available 4, а строка European Warehouse в Locations осталась Reserved 0 / Available 10. После полной загрузки таблица исправилась. Затем удаление резерва обновило сводку до 0 / 10 и убрало запись из Reservations, но Locations продолжила показывать 6 / 4 до следующей полной загрузки. Удаление с тем же эффектом проверено дважды (резерв 7 и резерв 6); создание с устаревшей таблицей зафиксировано отдельно. POST и DELETE вернули HTTP 200. Это расхождение отображения: после полной загрузки остатки корректны. [Сетевые запросы второго сценария](evidence/issue-028-reservations-network.txt).
+
+**Воспроизведение:**
+
+1. Открыть тестовую складскую позицию с In stock 10, Reserved 0 и Available 10. [Корректная таблица после загрузки](screenshots/issue-028-after-delete-reload-correct-loaded.png).
+2. В Reservations нажать Create, выбрать European Warehouse, указать Quantity 6 и подтвердить. [Диалог](screenshots/issue-028-create-six-dialog.png).
+3. Сравнить сводку с таблицей Locations: 6 / 4 в сводке против 0 / 10 в таблице. [Расхождение после создания](screenshots/issue-028-after-create-stale-overview.png).
+4. Полностью перезагрузить страницу: в Locations появляются правильные 6 / 4. [После загрузки](screenshots/issue-028-after-create-reload-correct-loaded.png).
+5. В меню созданного резервирования выбрать Delete и подтвердить. [Подтверждение](screenshots/issue-028-delete-confirmation.png).
+6. Сводка показывает 0 / 10, но Locations остаётся 6 / 4; запись Reservations отсутствует. [Сводка и таблица](screenshots/issue-028-after-delete-stale-overview.png), [список без записи](screenshots/issue-028-after-second-delete-no-records.png).
+7. Полностью перезагрузить страницу: Locations становится 0 / 10. [После загрузки](screenshots/issue-028-after-delete-reload-correct-loaded.png).
+
+Все резервирования, созданные для этой проверки, удалены. Отдельная QA-позиция без связи с товарами оставлена с остатком 10 для воспроизведения. Проверка 2026-10-02.
