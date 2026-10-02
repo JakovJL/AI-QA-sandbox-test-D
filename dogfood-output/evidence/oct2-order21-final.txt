@@ -1,0 +1,232 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+-
+
+Orders
+
+-
+
+Drafts
+
+Products
+
+Products
+
+Inventory
+
+Inventory
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Orders
+
+-
+
+...#21
+
+# #21
+
+Oct 2, 2026 12:22 PM from Default Sales Channel
+
+Partially refunded
+
+Delivered
+
+## Summary
+
+Medusa T-Shirt
+
+SHIRT-S-WHITE
+
+S · White
+
+10,00 €
+
+1x
+
+0,00 €
+
+1x items return received
+
+Items received
+
+Medusa T-Shirt
+
+SHIRT-L-BLACK
+
+L · Black
+
+10,00 €
+
+2x
+
+0,00 €
+
+2x items return received
+
+Items received
+
+Item Subtotal
+
+0,00 €
+
+Shipping Subtotal
+
+10,00 €
+
+Tax Total
+
+0,00 €
+
+Order Total
+
+10,00 €
+
+Discount Total
+
+0,00 €
+
+Total After Discount
+
+10,00 €
+
+Paid Total
+
+€ 10,00 EUR
+
+Outstanding amount
+
+€ 0,00 EUR
+
+## Payments
+
+Partially refunded
+
+#CQWQ6EF
+
+02 Oct, 2026, 12:22:03
+
+pp_system_default
+
+Captured
+
+40,00 €
+
+Refund
+
+02 Oct, 2026, 12:32:31
+
+Customer Care Adjustment
+
+- 30,00 €
+
+Total paid by customer
+
+€ 10,00 EUR
+
+## Fulfillment #1
+
+Delivered
+
+Items
+
+-
+
+1x S / White
+
+-
+
+2x L / Black
+
+Shipping from
+
+European Warehouse
+
+Provider
+
+Manual
+
+Tracking
+
+-
+
+## Metadata
+
+0 keys
+
+## JSON
+
+45 keys
+
+## Customer
+
+ID
+
+Q
+
+QA Country Change
+
+Contact
+
+qa-country-20261002@example.com
+
+Shipping address
+
+QA Country Change
+Test Street 31
+Copenhagen 1100
+Denmark
+
+Billing address
+
+Same as shipping address
+
+## Activity
+
+Payment refunded
+
+13 minutes ago
+
+€ 30,00 EUR
+
+By S
+
+Sergei hi
+
+Return #0SA2XV3 received
+
+16 minutes ago
+
+3 items returned
+
+Show 6 more activities
+
+Order placed
+
+23 minutes ago
+
+€ 40,00 EUR

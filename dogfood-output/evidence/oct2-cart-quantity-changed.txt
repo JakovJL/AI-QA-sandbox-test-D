@@ -1,0 +1,75 @@
+Menu
+
+Medusa Store
+
+Account
+
+Cart (3)
+
+## Already have an account?
+
+Sign in for a better experience.
+
+Sign in
+
+## Cart
+
+ItemQuantityPriceTotal
+
+Medusa T-Shirt
+
+Variant: L / Black
+
+Select...123456789101
+
+€10.00
+
+€20.00
+
+Medusa T-Shirt
+
+Variant: S / White
+
+Select...123456789101
+
+€10.00
+
+€10.00
+
+## Summary
+
+Add Promotion Code(s)
+
+Subtotal (excl. shipping and taxes)€30.00
+
+Shipping€10.00
+
+Taxes€0.00
+
+Total€40.00
+
+Go to checkout
+
+Medusa Store
+
+Categories
+
+- Shirts
+
+- Sweatshirts
+
+- Pants
+
+- Merch
+
+Medusa
+
+- GitHub
+
+- Documentation
+
+- Source code
+
+© 2026 Medusa Store. All rights reserved.
+
+Powered by&

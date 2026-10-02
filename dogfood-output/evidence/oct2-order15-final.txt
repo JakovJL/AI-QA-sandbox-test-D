@@ -1,0 +1,230 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+-
+
+Orders
+
+-
+
+Drafts
+
+Products
+
+Products
+
+Inventory
+
+Inventory
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Orders
+
+-
+
+...#15
+
+# #15
+
+Sep 28, 2026 2:13 PM from Default Sales Channel
+
+Partially refunded
+
+Delivered
+
+## Summary
+
+Medusa T-Shirt
+
+SHIRT-L-BLACK
+
+L · Black
+
+10,00 €
+
+2x
+
+0,00 €
+
+2x damaged items returned
+
+Damaged items received
+
+2x items return received
+
+Items received
+
+Item Subtotal
+
+0,00 €
+
+Shipping Subtotal
+
+10,00 €
+
+Tax Total
+
+0,00 €
+
+Order Total
+
+10,00 €
+
+Discount Total
+
+0,00 €
+
+Credit lines
+
+5,00 €
+
+Total After Discount
+
+5,00 €
+
+Paid Total
+
+€ 25,00 EUR
+
+Credit Lines Total
+
+€ 5,00 EUR
+
+Outstanding amount
+
+€ -20,00 EUR
+
+Refund € 20,00 EUR
+
+## Payments
+
+Partially refunded
+
+#M5C662B
+
+28 Sep, 2026, 14:13:56
+
+pp_system_default
+
+Captured
+
+30,00 €
+
+Refund
+
+29 Sep, 2026, 16:48:52
+
+Customer Care Adjustment
+
+- 5,00 €
+
+Total paid by customer
+
+€ 25,00 EUR
+
+## Fulfillment #1
+
+Delivered
+
+Items
+
+-
+
+2x L / Black
+
+Shipping from
+
+European Warehouse
+
+Provider
+
+Manual
+
+Tracking
+
+-
+
+## Metadata
+
+0 keys
+
+## JSON
+
+45 keys
+
+## Customer
+
+ID
+
+Q
+
+QA Sandbox
+
+Contact
+
+qa-codex-20260928@example.com
+
+Shipping address
+
+QA Sandbox
+Test Street 1
+Copenhagen 2100
+Denmark
+
+Billing address
+
+Same as shipping address
+
+## Activity
+
+Return #Y46JDGK received
+
+31 minutes ago
+
+2 items returned
+
+Return #Y46JDGK requested
+
+35 minutes ago
+
+2 items returned
+
+⋅
+
+Cancel
+
+By S
+
+Sergei hi
+
+Show 8 more activities
+
+Order placed
+
+4 days ago
+
+€ 5,00 EUR

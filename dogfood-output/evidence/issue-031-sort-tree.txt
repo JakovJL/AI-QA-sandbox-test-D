@@ -1,0 +1,87 @@
+- main
+  - sectionheader
+    - navigation
+      - button "Menu" [expanded=false, ref=e19]
+      - link "MEDUSA STORE" [ref=e10]
+      - link "Account" [ref=e11]
+      - button "Cart (0)" [expanded=false, ref=e20]
+        - link "Cart (0)" [ref=e21]
+  - paragraph
+    - StaticText "Sort by"
+  - LabelText
+    - StaticText "Latest Arrivals"
+  - LabelText
+    - StaticText "Price: Low -> High"
+  - image
+  - LabelText
+    - StaticText "Price: High -> Low"
+  - heading "All products" [level=1, ref=e1]
+  - list
+    - listitem [level=1]
+      - link "Medusa Sweatshirt €10.00" [ref=e4]
+        - image
+        - paragraph
+          - StaticText "Medusa Sweatshirt"
+        - paragraph
+          - StaticText "€10.00"
+    - listitem [level=1]
+      - link "Medusa T-Shirt €10.00" [ref=e5]
+        - image
+        - paragraph
+          - StaticText "Medusa T-Shirt"
+        - paragraph
+          - StaticText "€10.00"
+    - listitem [level=1]
+      - link "Medusa Sweatpants €10.00" [ref=e6]
+        - image
+        - paragraph
+          - StaticText "Medusa Sweatpants"
+        - paragraph
+          - StaticText "€10.00"
+    - listitem [level=1]
+      - link "Medusa Shorts €10.00" [ref=e7]
+        - image
+        - paragraph
+          - StaticText "Medusa Shorts"
+        - paragraph
+          - StaticText "€10.00"
+    - listitem [level=1]
+      - link "QA Test Product 2026-09-28 €5.00" [ref=e8]
+        - image
+        - paragraph
+          - StaticText "QA Test Product 2026-09-28"
+        - paragraph
+          - StaticText "€5.00"
+  - sectionfooter
+    - link "MEDUSA STORE" [ref=e9]
+    - StaticText "Categories"
+    - list
+      - listitem [level=1]
+        - link "Shirts" [ref=e12]
+        - list
+      - listitem [level=1]
+        - link "Sweatshirts" [ref=e13]
+        - list
+      - listitem [level=1]
+        - link "Pants" [ref=e14]
+        - list
+      - listitem [level=1]
+        - link "Merch" [ref=e15]
+        - list
+    - StaticText "Medusa"
+    - list
+      - listitem [level=1]
+        - link "GitHub" [ref=e16]
+      - listitem [level=1]
+        - link "Documentation" [ref=e17]
+      - listitem [level=1]
+        - link "Source code" [ref=e18]
+    - paragraph
+      - StaticText "© 2026 Medusa Store. All rights reserved."
+    - StaticText "Powered by"
+    - link [ref=e2]
+      - image
+    - StaticText "&"
+    - link [ref=e3]
+      - image
+- alert

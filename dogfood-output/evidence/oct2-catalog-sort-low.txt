@@ -1,0 +1,71 @@
+Menu
+
+Medusa Store
+
+Account
+
+Cart (0)
+
+Sort by
+
+Latest Arrivals
+
+Price: Low -> High
+
+Price: High -> Low
+
+# All products
+
+-
+
+QA Test Product 2026-09-28
+
+€5.00
+
+-
+
+Medusa Sweatshirt
+
+€10.00
+
+-
+
+Medusa T-Shirt
+
+€10.00
+
+-
+
+Medusa Sweatpants
+
+€10.00
+
+-
+
+Medusa Shorts
+
+€10.00
+
+Medusa Store
+
+Categories
+
+- Shirts
+
+- Sweatshirts
+
+- Pants
+
+- Merch
+
+Medusa
+
+- GitHub
+
+- Documentation
+
+- Source code
+
+© 2026 Medusa Store. All rights reserved.
+
+Powered by&

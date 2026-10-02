@@ -1,0 +1,53 @@
+{
+  "controls": [
+    {
+      "border": "rgb(228, 228, 231)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "L"
+    },
+    {
+      "border": "rgb(228, 228, 231)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "M"
+    },
+    {
+      "border": "rgb(59, 130, 246)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "S"
+    },
+    {
+      "border": "rgb(228, 228, 231)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "XL"
+    },
+    {
+      "border": "rgb(228, 228, 231)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "Black"
+    },
+    {
+      "border": "rgb(59, 130, 246)",
+      "checked": null,
+      "pressed": null,
+      "role": null,
+      "selected": null,
+      "text": "White"
+    }
+  ],
+  "url": "https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/dk/products/t-shirt?v_id=variant_01M392A92PEG0GRT5WQ0KFY6DV"
+}

@@ -1,0 +1,210 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+-
+
+Orders
+
+-
+
+Drafts
+
+Products
+
+Products
+
+Inventory
+
+Inventory
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Orders
+
+-
+
+...#19
+
+# #19
+
+Sep 30, 2026 11:17 AM from Default Sales Channel
+
+Captured
+
+Delivered
+
+## Summary
+
+Medusa T-Shirt
+
+SHIRT-L-BLACK
+
+L · Black
+
+10,00 €
+
+1x
+
+0,00 €
+
+1x items return received
+
+Items received
+
+Item Subtotal
+
+0,00 €
+
+Shipping Subtotal
+
+10,00 €
+
+Tax Total
+
+0,00 €
+
+Order Total
+
+10,00 €
+
+Discount Total
+
+0,00 €
+
+Total After Discount
+
+10,00 €
+
+Paid Total
+
+€ 20,00 EUR
+
+Outstanding amount
+
+€ -10,00 EUR
+
+Refund € 10,00 EUR
+
+## Payments
+
+Captured
+
+#QQ7RJST
+
+30 Sep, 2026, 11:17:21
+
+pp_system_default
+
+Captured
+
+20,00 €
+
+Total paid by customer
+
+€ 20,00 EUR
+
+## Fulfillment #1
+
+Delivered
+
+Items
+
+-
+
+1x L / Black
+
+Shipping from
+
+European Warehouse
+
+Provider
+
+Manual
+
+Tracking
+
+-
+
+## Metadata
+
+0 keys
+
+## JSON
+
+45 keys
+
+## Customer
+
+ID
+
+Q
+
+QA Codex
+
+Contact
+
+qa-codex-20260930@example.com
+
+Shipping address
+
+QA Codex
+1 Test Street
+Copenhagen 1000
+Denmark
+
+Billing address
+
+Same as shipping address
+
+## Activity
+
+Return #1SZ1B7F received
+
+16 minutes ago
+
+1 item returned
+
+Return #1SZ1B7F requested
+
+22 minutes ago
+
+1 item returned
+
+⋅
+
+Cancel
+
+By S
+
+Sergei hi
+
+Show 5 more activities
+
+Order placed
+
+2 days ago
+
+€ 20,00 EUR

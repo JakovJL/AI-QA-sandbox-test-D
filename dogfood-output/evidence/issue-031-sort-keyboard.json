@@ -1,0 +1,24 @@
+{
+  "active": {
+    "tag": "A",
+    "text": "Medusa Sweatshirt\n\n€10.00"
+  },
+  "sort": [
+    {
+      "checked": false,
+      "display": "none",
+      "id": "created_at"
+    },
+    {
+      "checked": false,
+      "display": "none",
+      "id": "price_asc"
+    },
+    {
+      "checked": true,
+      "display": "none",
+      "id": "price_desc"
+    }
+  ],
+  "url": "https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/dk/store?sortBy=price_desc"
+}

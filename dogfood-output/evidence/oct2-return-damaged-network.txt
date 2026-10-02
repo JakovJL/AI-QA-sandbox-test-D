@@ -1,0 +1,7 @@
+[26180.62] DELETE https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns/return_01M3XY21224P87492KXY46JDGK/receive-items/ordchact_01M3XY448HRCJPFNAXF5Y9P0T2 (Fetch) 200
+[26180.67] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns/return_01M3XY21224P87492KXY46JDGK/dismiss-items (Fetch) 200
+[26180.72] POST https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns/return_01M3XY21224P87492KXY46JDGK/receive/confirm (Fetch) 200
+[26180.77] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns/return_01M3XY21224P87492KXY46JDGK?fields=%2Aitems.item%2C%2Aitems.item.variant%2C%2Aitems.item.variant.product (Fetch) 200
+[26180.78] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns?status=requested&order_id=order_01M3KVHCAV00GXJB1NNTAZ4PGB&fields=%2Breceived_at (Fetch) 200
+[26180.79] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns?order_id=order_01M3KVHCAV00GXJB1NNTAZ4PGB&fields=%2Aitems%2C%2Aitems.reason (Fetch) 200
+[26180.80] GET https://sandbox-session-cand-c26fa443df2a4d52ba4c0f61ea385fac.fly.dev/admin/returns?order_id=order_01M3KVHCAV00GXJB1NNTAZ4PGB&fields=%2Breceived_at%2C%2Aitems (Fetch) 200

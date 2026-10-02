@@ -1,0 +1,87 @@
+Back to shopping cartBackMedusa Store
+
+## Shipping Address
+
+Edit
+
+Shipping Address
+
+QA Country Change
+
+Test Street 31
+
+1100, Copenhagen
+
+DK
+
+Contact
+
+qa-country-20261002@example.com
+
+Billing Address
+
+Billing and delivery address are the same.
+
+## Delivery
+
+Edit
+
+Method
+
+Express Shipping €10.00
+
+## Payment
+
+Edit
+
+Manual Payment
+
+Continue to review
+
+Payment method
+
+Manual Payment
+
+Payment details
+
+Another step will appear
+
+## Review
+
+By clicking the Place Order button, you confirm that you have read, understand and accept our Terms of Use, Terms of Sale and Returns Policy and acknowledge that you have read Medusa Store's Privacy Policy.
+
+Place order
+
+## In your Cart
+
+Subtotal (excl. shipping and taxes)€30.00
+
+Shipping€10.00
+
+Taxes€0.00
+
+Total€40.00
+
+Medusa T-Shirt
+
+Variant: L / Black
+
+2x
+
+€10.00
+
+€20.00
+
+Medusa T-Shirt
+
+Variant: S / White
+
+1x
+
+€10.00
+
+€10.00
+
+Add Promotion Code(s)
+
+Powered by&

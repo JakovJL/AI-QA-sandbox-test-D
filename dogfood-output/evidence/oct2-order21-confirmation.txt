@@ -1,0 +1,105 @@
+Menu
+
+Medusa Store
+
+Account
+
+Cart (0)
+
+# Thank you!Your order was placed successfully.
+
+We have sent the order confirmation details to qa-country-20261002@example.com.
+
+Order date: Fri Oct 02 2026
+
+Order number: 21
+
+## Summary
+
+Medusa T-Shirt
+
+Variant: L / Black
+
+2x
+
+€10.00
+
+€20.00
+
+Medusa T-Shirt
+
+Variant: S / White
+
+1x
+
+€10.00
+
+€10.00
+
+Subtotal (excl. shipping and taxes)€30.00
+
+Shipping€10.00
+
+Taxes€0.00
+
+Total€40.00
+
+## Delivery
+
+Shipping Address
+
+QA Country Change
+
+Test Street 31
+
+1100, Copenhagen
+
+DK
+
+Contact
+
+qa-country-20261002@example.com
+
+Method
+
+Express Shipping (€10.00)
+
+## Payment
+
+Payment method
+
+Manual Payment
+
+Payment details
+
+€40.00 paid at 10/2/2026, 9:22:03 AM
+
+## Need help?
+
+- Contact
+
+- Returns & Exchanges
+
+Medusa Store
+
+Categories
+
+- Shirts
+
+- Sweatshirts
+
+- Pants
+
+- Merch
+
+Medusa
+
+- GitHub
+
+- Documentation
+
+- Source code
+
+© 2026 Medusa Store. All rights reserved.
+
+Powered by&

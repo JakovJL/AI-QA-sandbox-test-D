@@ -1,0 +1,97 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+Products
+
+Products
+
+-
+
+Products
+
+-
+
+Collections
+
+-
+
+Categories
+
+-
+
+Options
+
+Inventory
+
+Inventory
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Products
+
+- QA Test Product 2026-09-28
+
+-
+
+...Default variant
+
+# Default variant
+
+Product Variant
+
+SKU
+
+-
+
+Default option
+
+Default option value
+
+## Media
+
+No media yet
+
+Add media to showcase it in your storefront.
+
+## Inventory items
+
+Inventory is not managed for this variant. Turn on ‘Manage Inventory’ to track the variant's inventory.
+
+Edit Variant
+
+## Metadata
+
+0 keys
+
+## JSON
+
+27 keys
+
+## Prices
+
+EUR5,00 €
+
+1 - 1 of 1 pricesShow more

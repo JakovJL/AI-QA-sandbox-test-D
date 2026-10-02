@@ -1,0 +1,37 @@
+Menu
+
+Medusa Store
+
+Account
+
+Cart (0)
+
+# Cart
+
+You don't have anything in your cart. Let's change that, use the link below to start browsing our products.
+
+Explore products
+
+Medusa Store
+
+Categories
+
+- Shirts
+
+- Sweatshirts
+
+- Pants
+
+- Merch
+
+Medusa
+
+- GitHub
+
+- Documentation
+
+- Source code
+
+© 2026 Medusa Store. All rights reserved.
+
+Powered by&

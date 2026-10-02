@@ -1,0 +1,181 @@
+D
+
+Default Store
+
+Search
+
+⌘K
+
+Orders
+
+Orders
+
+Products
+
+Products
+
+-
+
+Products
+
+-
+
+Collections
+
+-
+
+Categories
+
+-
+
+Options
+
+Inventory
+
+Inventory
+
+Customers
+
+Customers
+
+Promotions
+
+Promotions
+
+Price Lists
+
+Settings
+
+S
+
+Sergei hi
+
+- Products
+
+-
+
+...QA Test Product 2026-09-28
+
+# QA Test Product 2026-09-28
+
+Draft
+
+Description
+
+Temporary product for QA; safe to delete.
+
+Subtitle
+
+-
+
+Handle
+
+/qa-test-product-2026-09-28
+
+Material
+
+-
+
+Discountable
+
+True
+
+## Media
+
+No media yet
+
+Add media to showcase it in your storefront.
+
+Add media
+
+## Options
+
+Default option
+
+Default option value
+
+## Variants
+
+Create
+
+TitleSKU
+
+Default option
+
+Inventory
+
+Default variant
+
+Default option value
+
+Not managed
+
+1
+
+1 of 1 results
+
+1 of 1 pages
+
+PrevNext
+
+## Metadata
+
+0 keys
+
+## JSON
+
+31 keys
+
+## Sales Channels
+
+Default Sales Channel
+
+Available in 1 of 1 sales channels
+
+## Shipping configuration
+
+## Organize
+
+Tags
+
+-
+
+Type
+
+-
+
+Collection
+
+-
+
+Categories
+
+-
+
+## Attributes
+
+Height
+
+-
+
+Width
+
+-
+
+Length
+
+-
+
+Weight
+
+-
+
+MID code
+
+-
+
+HS code
+
+-
+
+Country of origin
